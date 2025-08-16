@@ -132,10 +132,10 @@ src/
 
 ### Автоматический деплой
 
-1. Создайте новый репозиторий на GitHub с именем `horse-marketplace`
+1. Создайте новый репозиторий на GitHub с именем `horse-marketplace-vue`
 2. Добавьте удаленный репозиторий:
    ```bash
-   git remote add origin https://github.com/YOUR_USERNAME/horse-marketplace.git
+   git remote add origin https://github.com/YOUR_USERNAME/horse-marketplace-vue.git
    ```
 3. Отправьте код:
    ```bash
