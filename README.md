@@ -128,6 +128,34 @@ src/
 - Белый фон для карточек и контента
 - Серые оттенки для текста и границ
 
+## Деплой на GitHub Pages
+
+### Автоматический деплой
+
+1. Создайте новый репозиторий на GitHub с именем `horse-marketplace`
+2. Добавьте удаленный репозиторий:
+   ```bash
+   git remote add origin https://github.com/YOUR_USERNAME/horse-marketplace.git
+   ```
+3. Отправьте код:
+   ```bash
+   git branch -M main
+   git push -u origin main
+   ```
+4. В настройках репозитория включите GitHub Pages:
+   - Перейдите в Settings → Pages
+   - Source: Deploy from a branch
+   - Branch: gh-pages
+   - Folder: / (root)
+
+### Ручной деплой
+
+```bash
+npm run build
+```
+
+Затем загрузите содержимое папки `dist` в GitHub Pages.
+
 ## Лицензия
 
 MIT License
